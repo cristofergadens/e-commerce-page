@@ -4,11 +4,19 @@ import { ColorMixin } from "../../styles/global";
 export const Footer = styled.footer`
   background-color: ${ColorMixin.gray1};
   padding: 24px 0 32px;
-  position: fixed;
+  position: relative;
+  overflow: hidden;
   bottom: 0;
   left: 0;
   right: 0;
   width: 100%;
+  /* margin-top: -230px; */
+
+  @media screen and (min-width: 1025px) { 
+    position: fixed;
+
+
+  }
 
   .socials,
   .cards {

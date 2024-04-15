@@ -7,8 +7,7 @@ import MainBannerDesktop from "../../assets/images/main-banner.png";
 import LeftArrowIcon from "../../assets/icons/navigationSliders/left.svg";
 import RightArrowIcon from "../../assets/icons/navigationSliders/right.svg";
 
-import { EffectFlip, Pagination, Navigation } from "swiper/modules";
-
+import { Pagination, Navigation } from "swiper/modules";
 
 const BannerSwiper = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 1024);
@@ -54,7 +53,7 @@ const BannerSwiper = () => {
         nextEl: ".swiper-button-next",
       }}
       pagination={true}
-      modules={[EffectFlip, Pagination, Navigation]}
+      modules={[ Pagination, Navigation]}
       className={isMobile ? "bannerMobile" : "bannerDestktop"}
       breakpoints={{
         1024: {

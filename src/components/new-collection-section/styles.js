@@ -26,7 +26,7 @@ export const Container = styled.div`
     height: 190px;
 
     @media screen and (min-width: 1025px) {
-      height: 480px;
+      height: 100%;
     }
 
     .banner-mobile {
@@ -48,12 +48,12 @@ export const Container = styled.div`
   @media screen and (min-width: 1025px) {
     justify-content: space-between;
     flex-direction: row;
-    max-width: 1598px;
+    max-width: 1280px;
     display: flex;
     width: 100%;
     margin: 0 auto;
     align-items: center;
-    padding: 80px 0;
+    padding: 80px 10px;
 
     .left {
       width: 30.29%;
@@ -91,8 +91,8 @@ export const Container = styled.div`
     }
   }
 
-  @media screen and (min-width: 1280px) {
-    max-width: calc(1598px - 20.9%);
+  @media screen and (min-width: 1281px) {
+    max-width: 1280px;
     padding: 80px 10px;
   }
 

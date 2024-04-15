@@ -8,6 +8,7 @@ import NewCollectionSection from "../components/new-collection-section";
 import BenefitsBlock from "../components/benefits-block";
 import Brands from "../components/brands";
 import MainBanner from "../components/main-banner";
+import ShelfProducts from "../components/shelf-products";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <MainBanner />
       <BenefitsBlock />
       <Brands /> 
+      <ShelfProducts />
       <NewCollectionSection />
       <Newsletter />
       <MenuFooter />

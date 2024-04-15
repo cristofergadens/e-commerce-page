@@ -148,7 +148,7 @@ export const Header = styled.header`
         a {
           text-decoration: none;
           @media screen and (max-width: 1280px) {
-            padding: 15px 10px 13px 17px;
+            padding: 15px 10px 13px 13px;
           }
           @media screen and (min-width: 1360px) {
             padding: 15px 8px 13px 9px;

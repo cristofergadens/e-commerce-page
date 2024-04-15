@@ -1,6 +1,4 @@
 import React from "react";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import { Container } from "./styles";
 import Truck from "../../assets/images/benefits/truck.png";
 import Discount from "../../assets/images/benefits/discount.png";

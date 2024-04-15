@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.c26f8caa.css",
-    "main.js": "/static/js/main.23d9a316.js",
-    "static/media/main-banner.png": "/static/media/main-banner.26e3fea8b0e8d8fe0568.png",
-    "static/media/main-banner-mobile.png": "/static/media/main-banner-mobile.da3638416dd94003afa7.png",
-    "static/media/banner-colecao.png": "/static/media/banner-colecao.06f8eb0c4b315d3ba308.png",
-    "static/media/modal-image.png": "/static/media/modal-image.8bc3de437eadb1a8aa1c.png",
-    "static/media/desktop-product-1.png": "/static/media/desktop-product-1.e5e089fe00c46f042a1a.png",
-    "static/media/desktop-product-2.png": "/static/media/desktop-product-2.ffcd05854bb6ca6aa27d.png",
-    "static/media/banner-colecao-mobile.png": "/static/media/banner-colecao-mobile.8a2d2da6d3137917000b.png",
-    "index.html": "/index.html",
-    "static/media/left.svg": "/static/media/left.8531df0b98d8cad1966f94a500b014e1.svg",
-    "static/media/right.svg": "/static/media/right.cafd8fc934f0134a341c3d4054ceb31d.svg",
-    "main.c26f8caa.css.map": "/static/css/main.c26f8caa.css.map",
-    "main.23d9a316.js.map": "/static/js/main.23d9a316.js.map"
+    "main.css": "/e-commerce-page/static/css/main.c26f8caa.css",
+    "main.js": "/e-commerce-page/static/js/main.d67b1e5b.js",
+    "static/media/main-banner.png": "/e-commerce-page/static/media/main-banner.26e3fea8b0e8d8fe0568.png",
+    "static/media/main-banner-mobile.png": "/e-commerce-page/static/media/main-banner-mobile.da3638416dd94003afa7.png",
+    "static/media/banner-colecao.png": "/e-commerce-page/static/media/banner-colecao.06f8eb0c4b315d3ba308.png",
+    "static/media/modal-image.png": "/e-commerce-page/static/media/modal-image.8bc3de437eadb1a8aa1c.png",
+    "static/media/desktop-product-1.png": "/e-commerce-page/static/media/desktop-product-1.e5e089fe00c46f042a1a.png",
+    "static/media/desktop-product-2.png": "/e-commerce-page/static/media/desktop-product-2.ffcd05854bb6ca6aa27d.png",
+    "static/media/banner-colecao-mobile.png": "/e-commerce-page/static/media/banner-colecao-mobile.8a2d2da6d3137917000b.png",
+    "index.html": "/e-commerce-page/index.html",
+    "static/media/left.svg": "/e-commerce-page/static/media/left.8531df0b98d8cad1966f94a500b014e1.svg",
+    "static/media/right.svg": "/e-commerce-page/static/media/right.cafd8fc934f0134a341c3d4054ceb31d.svg",
+    "main.c26f8caa.css.map": "/e-commerce-page/static/css/main.c26f8caa.css.map",
+    "main.d67b1e5b.js.map": "/e-commerce-page/static/js/main.d67b1e5b.js.map"
   },
   "entrypoints": [
     "static/css/main.c26f8caa.css",
-    "static/js/main.23d9a316.js"
+    "static/js/main.d67b1e5b.js"
   ]
 }

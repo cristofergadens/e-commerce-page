@@ -14,6 +14,10 @@ export const Container = styled.div`
     padding-right: 31px;
   }
 
+  .slider-mobile {
+    margin-left: -5px;
+  }
+
   .sliderItem {
     background-color: #efefef;
     padding: 11px 19px 14px 26px;
@@ -45,7 +49,7 @@ export const Container = styled.div`
   }
 
   .slick-slide {
-    margin: 0 10px;
+    margin: 0 7px 0 ;
     width: 307px;
 
     &:first-of-type {

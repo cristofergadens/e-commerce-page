@@ -14,7 +14,7 @@ import Trade from "../../assets/images/benefits/trade.png";
 import World from "../../assets/images/benefits/world.png";
 import Home from "../../assets/images/benefits/home.png";
 
-const SimpleSlider = () => {
+const BenefitsSlider = () => {
   const settings = {
     dots: false,
     infinite: false,
@@ -87,7 +87,7 @@ export default function BenefitsBlock() {
     <Container>
       <h3 className="title">Por que comprar na Maeztra?</h3>
       <div className="slider-mobile">
-        <SimpleSlider />
+        <BenefitsSlider />
       </div>
 
       <div className="slider-desktop">

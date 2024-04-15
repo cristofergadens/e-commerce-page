@@ -6,6 +6,7 @@ import Newsletter from "../components/newsletter";
 import MenuFooter from "../components/menu-footer";
 import NewCollectionSection from "../components/new-collection-section";
 import BenefitsBlock from "../components/benefits-block";
+import Brands from "../components/brands";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <GlobalStyle />
       <Header />
       <BenefitsBlock />
+      <Brands /> 
       <NewCollectionSection />
       <Newsletter />
       <MenuFooter />

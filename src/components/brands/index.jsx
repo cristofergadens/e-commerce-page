@@ -42,8 +42,11 @@ const BrandsSlider = () => {
       spaceBetween={15}
       slidesPerView={"auto"}
       breakpoints={{
-        1024: {
+        1360: {
           slidesPerView: 5,
+        },
+        1024: {
+          slidesPerView: 3,
         },
         640: {
           slidesPerView: 2,

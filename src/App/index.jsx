@@ -9,6 +9,7 @@ import BenefitsBlock from "../components/benefits-block";
 import Brands from "../components/brands";
 import MainBanner from "../components/main-banner";
 import ShelfProducts from "../components/shelf-products";
+import Modal from "../components/Modal";
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
       <NewCollectionSection />
       <Newsletter />
       <MenuFooter />
+      <Modal/>
+      
       <Footer />
     </>
     

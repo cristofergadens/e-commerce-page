@@ -195,7 +195,11 @@ export const Header = styled.header`
   .categories-desktop {
     max-width: 1598px;
     margin: 0 auto;
+    padding: 0; 
+    @media screen and (min-width: 1025px){
     padding: 13px 0 14px;
+      
+    }
     ul {
       margin-left: 162px;
       display: flex;

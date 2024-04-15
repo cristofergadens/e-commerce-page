@@ -4,9 +4,12 @@ export const Container = styled.div`
   max-width: 1598px;
   margin: 0 auto;
   padding-top: 0;
+  margin-bottom: 20px;
 
   @media screen and (min-width: 1025px) {
     padding-top: 40px;
+    margin-bottom: 0;
+
     .slider-mobile {
       display: none;
     }

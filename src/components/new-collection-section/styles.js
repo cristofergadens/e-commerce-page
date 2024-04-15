@@ -23,10 +23,16 @@ export const Container = styled.div`
   .right {
     max-width: 100%;
     width: 100%;
+    height: 190px;
+
+    @media screen and (min-width: 1025px) {
+      height: 480px;
+    }
 
     .banner-mobile {
       width: 100%;
       height: 100%;
+      object-fit: contain;
     }
   }
 
@@ -76,6 +82,7 @@ export const Container = styled.div`
       img {
         width: 100%;
         height: 100%;
+        object-fit: contain;
       }
 
       .banner-mobile {
@@ -104,5 +111,4 @@ export const Container = styled.div`
   @media screen and (min-width: 1900px) {
     max-width: 1598px;
   }
-
 `;

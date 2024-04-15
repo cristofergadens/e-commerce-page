@@ -7,12 +7,14 @@ import MenuFooter from "../components/menu-footer";
 import NewCollectionSection from "../components/new-collection-section";
 import BenefitsBlock from "../components/benefits-block";
 import Brands from "../components/brands";
+import MainBanner from "../components/main-banner";
 
 function App() {
   return (
     <>
       <GlobalStyle />
       <Header />
+      <MainBanner />
       <BenefitsBlock />
       <Brands /> 
       <NewCollectionSection />

@@ -1,69 +1,78 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  padding: 40px 0 40px 31px;
-  max-width: 1598px;
-  margin: 0 auto;
+  margin-top: 24px;
 
   .title {
-    width: 100%;
-    font-size: 16px;
-    font-weight: 700;
     text-align: center;
-    margin: 0 0 21px;
-    padding-right: 31px;
+    margin-bottom: 16px;
+  }
+
+  .slider__deals {
+    padding: 0 31px;
+    margin-bottom: 40px;
+
+    @media screen and (min-width: 1025px) {
+      padding: 0 10px;
+    }
+
+    @media screen and (min-width: 1270px) {
+      padding: 0 20px;
+    }
+
+    @media screen and (min-width: 1300px) {
+      max-height: 1280px;
+      padding: 0;
+    }
+
+    .sliderItem {
+      max-width: 298px;
+      @media screen and (min-width: 1025px) {
+        max-width: 307px;
+      }
+      height: 64px;
+      background-color: #efefef;
+      border-radius: 4px;
+      padding: 11px 0 11px 26px;
+      display: flex;
+
+      @media screen and (min-width: 1025px) {
+        padding: 11px 10px 11px 26px;
+        height: auto;
+      }
+
+      .left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 21px;
+      }
+
+      img {
+        width: 32px;
+        height: 32px;
+        object-fit: contain;
+      }
+
+      .right {
+        .titleItem {
+          font-size: 14px;
+        }
+        .description {
+          font-size: 12px;
+          font-weight: 18px;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          display: -webkit-box;
+          -webkit-line-clamp: 1;
+          -webkit-box-orient: vertical;
+        }
+      }
+    }
   }
 
   .slider-mobile {
-    margin-left: -5px;
-  }
-
-  .sliderItem {
-    background-color: #efefef;
-    padding: 11px 19px 14px 26px;
-    display: flex !important;
-    flex-direction: row;
-    border-radius: 4px;
-
-    .left {
-      align-self: center;
-      width: 32px;
-      height: 32px;
-    }
-
-    .right {
-      display: flex;
-      flex-direction: column;
-      padding-left: 21px;
-
-      .titleItem {
-        font-size: 14px;
-        font-weight: 700;
-        line-height: 21px;
-      }
-
-      .description {
-        font-size: 12px;
-      }
-    }
-  }
-
-  .slick-slide {
-    margin: 0 7px 0 ;
-    width: 307px;
-
-    &:first-of-type {
-      margin-left: 0;
-    }
-  }
-
-  .slick-track {
-    height: 64px;
-    overflow-y: hidden;
-  }
-
-  .slider-desktop {
-    display: none;
+    /* display: none; */
     @media screen and (min-width: 1025px) {
       display: flex;
       padding: 0 10px;
@@ -103,10 +112,8 @@ export const Container = styled.div`
   }
 
   @media screen and (min-width: 1025px) {
-    padding: 24px 0 40px 0;
-
-    .slider-mobile {
-      display: none;
-    }
+    padding: 24px 0 0;
+    max-width: 1598px;
+    margin: 0 auto;
   }
 `;

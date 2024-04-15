@@ -36,7 +36,7 @@ export const Newsletter = styled.div`
 
     @media screen and (min-width: 1025px) {
       position: relative;
-      width: 32.813%;
+      width: 33.18%;
     }
 
     input {
@@ -45,7 +45,7 @@ export const Newsletter = styled.div`
 
       @media screen and (min-width: 1025px) {
         height: 40px;
-        border-radius: 10px;
+        border-radius: 4px;
       }
 
       width: 100%;
@@ -63,7 +63,7 @@ export const Newsletter = styled.div`
     button {
       @media screen and (min-width: 1025px) {
         position: absolute;
-        border-radius: 8px;
+        border-radius: 4px;
         height: 100%;
       }
       height: 26px;

@@ -61,16 +61,18 @@ export default function Header() {
         </div>
       </div>
       <div className="categories-desktop">
-          <ul>
-            <li className="active"><DressIcon /> Novidades</li>
-            <li>Vestidos</li>
-            <li>Roupas</li>
-            <li>Sapatos</li>
-            <li>Lingerie</li>
-            <li>Acessórios</li>
-            <li>OUTLET</li>
-          </ul>
-        </div>
+        <ul>
+          <a href="google.com" className="active">
+            <DressIcon /> Novidades
+          </a>
+          <a href="google.com">Vestidos</a>
+          <a href="google.com">Roupas</a>
+          <a href="google.com">Sapatos</a>
+          <a href="google.com">Lingerie</a>
+          <a href="google.com">Acessórios</a>
+          <a href="google.com">OUTLET</a>
+        </ul>
+      </div>
     </Styled.Header>
   );
 }

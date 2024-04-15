@@ -4,13 +4,12 @@ import { ColorMixin } from "../../styles/global";
 export const MenuFooter = styled.div`
   background-color: #fafafa;
   padding: 37px 32px 56px 31px;
-  /* position: fixed; */
-  /* bottom: 0;
-  left: 0;
-  width: 100%; */
 
   @media screen and (min-width: 1025px) {
     padding: 40px 0 64px;
+    width: 100%;
+
+    /* display: relative; */
   }
 
   .col-1,
@@ -35,11 +34,10 @@ export const MenuFooter = styled.div`
       font-size: 12px;
     }
 
-    .title.rotate-icon .moreItems{
+    .title.rotate-icon .moreItems {
       transform: rotate(180deg);
       transition: transform 0.6s;
     }
-
   }
 
   .col-2 {

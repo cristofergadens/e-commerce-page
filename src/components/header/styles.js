@@ -4,7 +4,7 @@ import { ColorMixin } from "../../styles/global";
 export const Header = styled.header`
   .topHeader {
     background-color: ${ColorMixin.gray1};
-    width: 100vw !important;
+    width: 100%;
 
     text-align: center;
     height: 24px;
@@ -201,13 +201,15 @@ export const Header = styled.header`
       display: flex;
       gap: 15px;
 
-      li {
+      a {
         width: 146px;
         font-size: 14px;
         line-height: 21px;
         display: flex;
         align-items: center;
         justify-content: center;
+        text-decoration: none;
+        color: #353535;
 
         svg {
           margin-right: 8px;

@@ -4,7 +4,7 @@ import { ColorMixin } from "../../styles/global";
 export const Header = styled.header`
   .topHeader {
     background-color: ${ColorMixin.gray1};
-    width: 100vw !important;
+    width: 100%;
 
     text-align: center;
     height: 24px;
@@ -148,7 +148,7 @@ export const Header = styled.header`
         a {
           text-decoration: none;
           @media screen and (max-width: 1280px) {
-            padding: 15px 10px 13px 17px;
+            padding: 15px 10px 13px 13px;
           }
           @media screen and (min-width: 1360px) {
             padding: 15px 8px 13px 9px;
@@ -195,19 +195,25 @@ export const Header = styled.header`
   .categories-desktop {
     max-width: 1598px;
     margin: 0 auto;
+    padding: 0; 
+    @media screen and (min-width: 1025px){
     padding: 13px 0 14px;
+      
+    }
     ul {
       margin-left: 162px;
       display: flex;
       gap: 15px;
 
-      li {
+      a {
         width: 146px;
         font-size: 14px;
         line-height: 21px;
         display: flex;
         align-items: center;
         justify-content: center;
+        text-decoration: none;
+        color: #353535;
 
         svg {
           margin-right: 8px;

@@ -10,39 +10,41 @@ import VtexLogo from "../../assets/icons/credits/vtexLogo";
 
 export default function Footer() {
   return (
-    <Styled.Footer>
-      <div className="container">
-        <div className="socials">
-          <a href="https://www.facebook.com/maeztraconsultoria">
-            <Facebook />
-          </a>
-          <a href="https://www.linkedin.com/company/maeztraconsultoria">
-            <Linkedin />
-          </a>
-          <a href="https://www.instagram.com/maeztraconsultoria/">
-            <Instagram />
-          </a>
-          <a href="https://www.youtube.com/channel/UCldfYzd4AiaowDJk7Uk_EGA">
-            <Youtube />
-          </a>
-        </div>
-        <div className="cards">
-          <Visa />
-          <Mastercard />
-          <Visa />
-          <Mastercard />
-        </div>
-        <div className="credits">
-          <div className="left">
-            <p>Powered by</p>
-            <VtexLogo />
+    <>
+      <Styled.Footer>
+        <div className="container">
+          <div className="socials">
+            <a href="https://www.facebook.com/maeztraconsultoria">
+              <Facebook />
+            </a>
+            <a href="https://www.linkedin.com/company/maeztraconsultoria">
+              <Linkedin />
+            </a>
+            <a href="https://www.instagram.com/maeztraconsultoria/">
+              <Instagram />
+            </a>
+            <a href="https://www.youtube.com/channel/UCldfYzd4AiaowDJk7Uk_EGA">
+              <Youtube />
+            </a>
           </div>
-          <div className="right">
-            <p>Developed by</p>
-            <MaeztraLogo />
+          <div className="cards">
+            <Visa />
+            <Mastercard />
+            <Visa />
+            <Mastercard />
+          </div>
+          <div className="credits">
+            <div className="left">
+              <p>Powered by</p>
+              <VtexLogo />
+            </div>
+            <div className="right">
+              <p>Developed by</p>
+              <MaeztraLogo />
+            </div>
           </div>
         </div>
-      </div>
-    </Styled.Footer>
+      </Styled.Footer>
+    </>
   );
 }

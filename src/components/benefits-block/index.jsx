@@ -69,11 +69,11 @@ const BenefitsSlider = () => {
 
   return (
     <Swiper
-      className="slider__deals"
+      className="slider-benefits"
       spaceBetween={15}
       slidesPerView={"auto"}
       breakpoints={{
-        1360: {
+        1200: {
           slidesPerView: 5,
         },
         1024: {

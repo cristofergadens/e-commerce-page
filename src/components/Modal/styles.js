@@ -49,7 +49,6 @@ export const Container = styled.div`
       width: 100%;
       @media screen and (min-width: 1025px) {
         width: 50%;
-
       }
 
       align-items: center;
@@ -108,7 +107,11 @@ export const Container = styled.div`
     span {
       position: absolute;
       top: 13px;
-      right: 38%;
+      right: 35%;
+
+      @media screen and (min-width: 1025px) {
+        right: 38%;
+      }
     }
 
     &:hover {

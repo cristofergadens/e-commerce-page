@@ -25,11 +25,20 @@ export const Container = styled.div`
   }
 
   .title {
-    font-size: 32px;
-    line-height: 48.67px;
+    font-size: 24px;
+    line-height: 36.5px;
     font-weight: 700;
     text-align: center;
     margin-bottom: 24px;
+    padding-right: 16px;
+
+    @media screen and (min-width: 1025px) {
+      font-size: 32px;
+      line-height: 48.67px;
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 24px;
+    }
   }
 
   .swiper-button,
@@ -75,7 +84,7 @@ export const Container = styled.div`
   .swiper-slide {
     /* max-width: 308px; */
     /* margin: 0 8px; */
-    width: 92% ;
+    width: 92%;
 
     img {
       width: 100%;

@@ -17,13 +17,13 @@ export default function Footer() {
             <a href="https://www.facebook.com/maeztraconsultoria">
               <Facebook />
             </a>
-            <a href="https://www.linkedin.com/company/maeztraconsultoria">
+            <a href="https://www.linkedin.com/company/maeztra/">
               <Linkedin />
             </a>
-            <a href="https://www.instagram.com/maeztraconsultoria/">
+            <a href="https://www.instagram.com/maeztra_consultoria/">
               <Instagram />
             </a>
-            <a href="https://www.youtube.com/channel/UCldfYzd4AiaowDJk7Uk_EGA">
+            <a href="https://www.youtube.com/@maeztra">
               <Youtube />
             </a>
           </div>

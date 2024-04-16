@@ -8,7 +8,7 @@ export const Container = styled.div`
     margin-bottom: 16px;
   }
 
-  .slider__deals {
+  .slider-benefits {
     padding: 0 31px;
     margin-bottom: 40px;
 
@@ -26,7 +26,7 @@ export const Container = styled.div`
     }
 
     .sliderItem {
-      max-width: 298px;
+      max-width: auto;
       @media screen and (min-width: 1025px) {
         max-width: 307px;
       }
@@ -72,7 +72,6 @@ export const Container = styled.div`
   }
 
   .slider-mobile {
-    /* display: none; */
     @media screen and (min-width: 1025px) {
       display: flex;
       padding: 0 10px;

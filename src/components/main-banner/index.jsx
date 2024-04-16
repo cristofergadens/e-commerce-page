@@ -52,7 +52,9 @@ const BannerSwiper = () => {
         prevEl: ".swiper-button-prev",
         nextEl: ".swiper-button-next",
       }}
-      pagination={true}
+      pagination={{
+        clickable: true,
+      }}
       modules={[ Pagination, Navigation]}
       className={isMobile ? "bannerMobile" : "bannerDestktop"}
       breakpoints={{

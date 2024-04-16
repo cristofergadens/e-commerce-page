@@ -10,39 +10,30 @@ import "swiper/swiper-bundle.css";
 const BrandsSlider = () => {
   const slides = [
     <SwiperSlide>
-      <div className="sliderItem">
-        <img src={Comma} alt="Comma icon" />
-      </div>
+      <img src={Comma} alt="Comma icon" />
     </SwiperSlide>,
     <SwiperSlide>
-      <div className="sliderItem">
-        <img src={Melissa} alt="Melissa icon" />
-      </div>
+      <img src={Melissa} alt="Melissa icon" />
     </SwiperSlide>,
     <SwiperSlide>
-      <div className="sliderItem">
-        <img src={Forever} alt="Forever icon" />
-      </div>
+      <img src={Forever} alt="Forever icon" />
     </SwiperSlide>,
     <SwiperSlide>
-      <div className="sliderItem">
-        <img src={Zara} alt="Zara icon" />
-      </div>
+      <img src={Zara} alt="Zara icon" />
     </SwiperSlide>,
     <SwiperSlide>
-      <div className="sliderItem">
-        <img src={Ann} alt="Ann icon" />
-      </div>
+      <img src={Ann} alt="Ann icon" />
     </SwiperSlide>,
   ];
 
   return (
     <Swiper
-      className="slider__deals"
-      spaceBetween={15}
+      className="slider-brands"
+      spaceBetween={16}
       slidesPerView={"auto"}
+      loop={true}
       breakpoints={{
-        1360: {
+        1200: {
           slidesPerView: 5,
         },
         1024: {
@@ -56,7 +47,6 @@ const BrandsSlider = () => {
     >
       {slides}
     </Swiper>
-
   );
 };
 

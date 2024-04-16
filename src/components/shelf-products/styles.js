@@ -29,7 +29,7 @@ export const Container = styled.div`
     line-height: 36.5px;
     font-weight: 700;
     text-align: center;
-    margin-bottom: 24px;
+    margin-bottom: 16px;
     padding-right: 16px;
 
     @media screen and (min-width: 1025px) {

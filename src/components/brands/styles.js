@@ -29,6 +29,7 @@ export const Container = styled.div`
   @media screen and (min-width: 1025px) {
     max-width: 1598px;
     margin: 0 auto;
+    margin-top: 40px;
 
     .slider-brands {
       padding: 0;

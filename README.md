@@ -2,7 +2,7 @@
 
 Layout de um e-commerce utilizando React Js com Styled Components. 
 
-##Para rodar o projeto: 
+## Para rodar o projeto: 
 
 Primeiro, instale as dependencias com:
 

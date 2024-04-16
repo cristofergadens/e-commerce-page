@@ -37,6 +37,7 @@ export const Newsletter = styled.div`
     @media screen and (min-width: 1025px) {
       position: relative;
       width: 33.18%;
+      max-width: 630px;
     }
 
     input {
